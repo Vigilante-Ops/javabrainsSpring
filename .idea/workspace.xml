@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4da625fc-0106-465b-9813-7dbe483fa939" name="Changes" comment="DI property object injection">
+    <list default="true" id="4da625fc-0106-465b-9813-7dbe483fa939" name="Changes" comment="DI property object injection with inner beans B and C">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring.xml" afterDir="false" />
     </list>
@@ -117,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672822244078</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="DI property object injection with inner beans B and C">
+      <created>1672823056461</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672823056461</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +145,7 @@
     <MESSAGE value="constructor DI specifying data-type to avoid ambiguity problem" />
     <MESSAGE value="constructor DI specifying indexes&#10;&lt;constructor-arg value=&quot;abc&quot; index=&quot;0&quot;/&gt;&#10;&lt;constructor-arg value=&quot;20&quot; index=&quot;1&quot;/&gt;" />
     <MESSAGE value="DI property object injection" />
-    <option name="LAST_COMMIT_MESSAGE" value="DI property object injection" />
+    <MESSAGE value="DI property object injection with inner beans B and C" />
+    <option name="LAST_COMMIT_MESSAGE" value="DI property object injection with inner beans B and C" />
   </component>
 </project>

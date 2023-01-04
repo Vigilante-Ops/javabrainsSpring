@@ -18,7 +18,7 @@ public class Drawing
         //New method Application context=ApplContext is big bro of beanfactory
 
         ApplicationContext applicationContext=new ClassPathXmlApplicationContext("file:spring.xml");
-        Triangle t= (Triangle) applicationContext.getBean("triangle");
+        Triangle t= (Triangle) applicationContext.getBean("t-alias");
         t.draw();
         System.out.println(t.getA().getX());
         System.out.println(t.getA().getY());
