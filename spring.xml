@@ -3,6 +3,6 @@
         "http://www.springframework.org/dtd/spring-beans.dtd">
 <beans>
     <bean id="triangle" class="org.vigilantex.demo.Triangle">
-        <property name="testValue" value="abc"/>
+        <constructor-arg value="abc"/>
     </bean>
 </beans>
