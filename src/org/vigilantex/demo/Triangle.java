@@ -3,34 +3,35 @@ package org.vigilantex.demo;
 public class Triangle
 {
 
-    private String testValue;
-    private int height;
 
-    public int getHeight() {
-        return height;
+    private Point A;
+    private Point B;
+
+    private Point C;
+
+    public Point getA() {
+        return A;
     }
 
-    public Triangle(String testValue, int height) {
-        this.testValue = testValue;
-        this.height = height;
+    public void setA(Point a) {
+        A = a;
     }
 
-    public Triangle(int height) {
-        this.height = height;
+    public Point getB() {
+        return B;
     }
 
-    public Triangle(String testValue) {
-        this.testValue = testValue;
+    public void setB(Point b) {
+        B = b;
     }
 
-    public String getTestValue() {
-        return testValue;
+    public Point getC() {
+        return C;
     }
-//commenting setter used in property DI
-    /*public void setTestValue(String testValue) {
-        this.testValue = testValue;
-    }*/
 
+    public void setC(Point c) {
+        C = c;
+    }
 
     public void draw()
     {

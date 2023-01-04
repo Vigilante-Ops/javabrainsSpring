@@ -4,7 +4,28 @@
 <beans>
     <bean id="triangle" class="org.vigilantex.demo.Triangle">
 
-        <constructor-arg value="abc" index="0"/>
-        <constructor-arg value="20" index="1"/>
+        <property name="A" ref="pointA"/>
+        <property name="B" ref="pointB"/>
+        <property name="C" ref="pointC"/>
+
+    </bean>
+
+    <bean id="pointA" class="org.vigilantex.demo.Point">
+
+        <property name="x" value="1"/>
+        <property name="y" value="2"/>
+        
+    </bean>
+    <bean id="pointB" class="org.vigilantex.demo.Point">
+
+        <property name="x" value="3"/>
+        <property name="y" value="4"/>
+
+    </bean>
+    <bean id="pointC" class="org.vigilantex.demo.Point">
+
+        <property name="x" value="5"/>
+        <property name="y" value="6"/>
+
     </bean>
 </beans>

@@ -20,8 +20,12 @@ public class Drawing
         ApplicationContext applicationContext=new ClassPathXmlApplicationContext("file:spring.xml");
         Triangle t= (Triangle) applicationContext.getBean("triangle");
         t.draw();
-        System.out.println(t.getTestValue());
-       System.out.println(t.getHeight());
+        System.out.println(t.getA().getX());
+        System.out.println(t.getA().getY());
+        System.out.println(t.getB().getX());
+        System.out.println(t.getB().getY());
+        System.out.println(t.getC().getX());
+        System.out.println(t.getC().getY());
 
 
     }
