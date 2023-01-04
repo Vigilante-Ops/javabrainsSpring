@@ -15,6 +15,10 @@ public class Triangle
         this.height = height;
     }
 
+    public Triangle(int height) {
+        this.height = height;
+    }
+
     public Triangle(String testValue) {
         this.testValue = testValue;
     }

@@ -3,7 +3,7 @@
         "http://www.springframework.org/dtd/spring-beans.dtd">
 <beans>
     <bean id="triangle" class="org.vigilantex.demo.Triangle">
-        <constructor-arg value="abc"/>
-        <constructor-arg value="20"/>
+
+        <constructor-arg value="20" type="String"/>
     </bean>
 </beans>

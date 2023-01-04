@@ -21,7 +21,7 @@ public class Drawing
         Triangle t= (Triangle) applicationContext.getBean("triangle");
         t.draw();
         System.out.println(t.getTestValue());
-        System.out.println(t.getHeight());
+       // System.out.println(t.getHeight());
 
 
     }
