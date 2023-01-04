@@ -4,6 +4,16 @@ public class Triangle
 {
 
     private String testValue;
+    private int height;
+
+    public int getHeight() {
+        return height;
+    }
+
+    public Triangle(String testValue, int height) {
+        this.testValue = testValue;
+        this.height = height;
+    }
 
     public Triangle(String testValue) {
         this.testValue = testValue;

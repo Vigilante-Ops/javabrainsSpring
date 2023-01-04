@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4da625fc-0106-465b-9813-7dbe483fa939" name="Changes" comment="initial dependency injection with property injection using factory">
+    <list default="true" id="4da625fc-0106-465b-9813-7dbe483fa939" name="Changes" comment="constructor DI used">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/vigilantex/demo/Drawing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/vigilantex/demo/Drawing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/vigilantex/demo/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/vigilantex/demo/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672815855463</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="constructor DI used">
+      <created>1672817896478</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672817896478</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,6 +107,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial dependency injection with property injection using factory" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial dependency injection with property injection using factory" />
+    <MESSAGE value="constructor DI used" />
+    <option name="LAST_COMMIT_MESSAGE" value="constructor DI used" />
   </component>
 </project>

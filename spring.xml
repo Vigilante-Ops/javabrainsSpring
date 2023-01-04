@@ -4,5 +4,6 @@
 <beans>
     <bean id="triangle" class="org.vigilantex.demo.Triangle">
         <constructor-arg value="abc"/>
+        <constructor-arg value="20"/>
     </bean>
 </beans>
