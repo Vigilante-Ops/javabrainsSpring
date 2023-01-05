@@ -1,41 +1,24 @@
 package org.vigilantex.demo;
 
+import java.util.List;
+
 public class Triangle
 {
 
 
-    private Point A;
-    private Point B;
+    private List<Point> points;
 
-    private Point C;
-
-    public Point getA() {
-        return A;
+    public List<Point> getPoints() {
+        return points;
     }
 
-    public void setA(Point a) {
-        A = a;
-    }
-
-    public Point getB() {
-        return B;
-    }
-
-    public void setB(Point b) {
-        B = b;
-    }
-
-    public Point getC() {
-        return C;
-    }
-
-    public void setC(Point c) {
-        C = c;
+    public void setPoints(List<Point> points) {
+        this.points = points;
     }
 
     public void draw()
     {
-        System.out.println("triangle");
+       points.forEach(point-> System.out.println(point.getX()+" "+point.getY()));
 
     }
 }

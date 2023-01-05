@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4da625fc-0106-465b-9813-7dbe483fa939" name="Changes" comment="DI property object injection with inner beans B and C">
+    <list default="true" id="4da625fc-0106-465b-9813-7dbe483fa939" name="Changes" comment="using alias&#10;&lt;alias name=&quot;triangle&quot; alias=&quot;t-alias&quot;/&gt;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/vigilantex/demo/Drawing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/vigilantex/demo/Drawing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/vigilantex/demo/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/vigilantex/demo/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,17 +34,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/amanv/OneDrive/Desktop/springDemo",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/amanv/OneDrive/Desktop/springDemo&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\amanv\OneDrive\Desktop\springDemo" />
@@ -124,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672823056461</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="using alias&#10;&lt;alias name=&quot;triangle&quot; alias=&quot;t-alias&quot;/&gt;">
+      <created>1672823337834</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672823337834</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +158,7 @@
     <MESSAGE value="constructor DI specifying indexes&#10;&lt;constructor-arg value=&quot;abc&quot; index=&quot;0&quot;/&gt;&#10;&lt;constructor-arg value=&quot;20&quot; index=&quot;1&quot;/&gt;" />
     <MESSAGE value="DI property object injection" />
     <MESSAGE value="DI property object injection with inner beans B and C" />
-    <option name="LAST_COMMIT_MESSAGE" value="DI property object injection with inner beans B and C" />
+    <MESSAGE value="using alias&#10;&lt;alias name=&quot;triangle&quot; alias=&quot;t-alias&quot;/&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="using alias&#10;&lt;alias name=&quot;triangle&quot; alias=&quot;t-alias&quot;/&gt;" />
   </component>
 </project>
