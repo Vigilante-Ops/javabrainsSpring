@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4da625fc-0106-465b-9813-7dbe483fa939" name="Changes" comment="using collection in DI">
+    <list default="true" id="4da625fc-0106-465b-9813-7dbe483fa939" name="Changes" comment="byname autowiring&#10;Check spring.xml for lookup.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/vigilantex/demo/Drawing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/vigilantex/demo/Drawing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/vigilantex/demo/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/vigilantex/demo/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672898472261</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="byname autowiring&#10;Check spring.xml for lookup.">
+      <created>1672899327385</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1672899327385</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,6 +174,7 @@
     <MESSAGE value="DI property object injection with inner beans B and C" />
     <MESSAGE value="using alias&#10;&lt;alias name=&quot;triangle&quot; alias=&quot;t-alias&quot;/&gt;" />
     <MESSAGE value="using collection in DI" />
-    <option name="LAST_COMMIT_MESSAGE" value="using collection in DI" />
+    <MESSAGE value="byname autowiring&#10;Check spring.xml for lookup." />
+    <option name="LAST_COMMIT_MESSAGE" value="byname autowiring&#10;Check spring.xml for lookup." />
   </component>
 </project>

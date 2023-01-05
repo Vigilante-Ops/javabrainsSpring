@@ -21,7 +21,9 @@ public class Drawing
         Triangle t= (Triangle) applicationContext.getBean("t-alias");
         t.draw();
 
-
+        Triangle t2= (Triangle) applicationContext.getBean("t-alias");
+        t2.draw();
+        System.out.println(t==t2);
 
     }
 

@@ -1,10 +1,17 @@
 package org.vigilantex.demo;
 
+import org.springframework.context.annotation.Scope;
+
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class Triangle
 {
+    Triangle()
+    {
+        System.out.println("triangle obj init");
+    }
 
 
     private Point pointA;
