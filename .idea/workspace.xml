@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4da625fc-0106-465b-9813-7dbe483fa939" name="Changes" comment="scope of bean singleton&#10;Point to remember when scope is singleton wihout get bean, bean is initialized. And single obj is created whether u call getbean 100tyms">
+    <list default="true" id="4da625fc-0106-465b-9813-7dbe483fa939" name="Changes" comment="scope of bean prototype&#10;Point to remember when scope is prototype wihout get bean bean will not be initialized. And for every getbean call new obj is created.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/vigilantex/demo/Drawing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/vigilantex/demo/Drawing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672901455380</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="scope of bean prototype&#10;Point to remember when scope is prototype wihout get bean bean will not be initialized. And for every getbean call new obj is created.">
+      <created>1672901530481</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1672901530481</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,6 +189,7 @@
     <MESSAGE value="using collection in DI" />
     <MESSAGE value="byname autowiring&#10;Check spring.xml for lookup." />
     <MESSAGE value="scope of bean singleton&#10;Point to remember when scope is singleton wihout get bean, bean is initialized. And single obj is created whether u call getbean 100tyms" />
-    <option name="LAST_COMMIT_MESSAGE" value="scope of bean singleton&#10;Point to remember when scope is singleton wihout get bean, bean is initialized. And single obj is created whether u call getbean 100tyms" />
+    <MESSAGE value="scope of bean prototype&#10;Point to remember when scope is prototype wihout get bean bean will not be initialized. And for every getbean call new obj is created." />
+    <option name="LAST_COMMIT_MESSAGE" value="scope of bean prototype&#10;Point to remember when scope is prototype wihout get bean bean will not be initialized. And for every getbean call new obj is created." />
   </component>
 </project>

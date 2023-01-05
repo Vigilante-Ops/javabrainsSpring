@@ -4,9 +4,16 @@
 <beans>
     <bean id="triangle" class="org.vigilantex.demo.Triangle" autowire="byName" scope="prototype"/>
 
-    <bean id="pointA" class="org.vigilantex.demo.Point">
+    <bean id="parentA" class="org.vigilantex.demo.Point">
 
         <property name="x" value="1"/>
+
+
+    </bean>
+
+    <bean id="pointA" class="org.vigilantex.demo.Point" parent="parentA">
+
+
         <property name="y" value="2"/>
         
     </bean>
@@ -22,7 +29,6 @@
         <property name="y" value="6"/>
 
     </bean>
-    <alias name="triangle" alias="t-alias"/>
 
 
 </beans>
