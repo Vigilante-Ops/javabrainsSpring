@@ -2,7 +2,7 @@
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
         "http://www.springframework.org/dtd/spring-beans.dtd">
 <beans>
-    <bean id="triangle" class="org.vigilantex.demo.Triangle" autowire="byName" scope="singleton"/>
+    <bean id="triangle" class="org.vigilantex.demo.Triangle" autowire="byName" scope="prototype"/>
 
     <bean id="pointA" class="org.vigilantex.demo.Point">
 

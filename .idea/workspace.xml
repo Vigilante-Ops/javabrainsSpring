@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4da625fc-0106-465b-9813-7dbe483fa939" name="Changes" comment="byname autowiring&#10;Check spring.xml for lookup.">
+    <list default="true" id="4da625fc-0106-465b-9813-7dbe483fa939" name="Changes" comment="scope of bean singleton&#10;Point to remember when scope is singleton wihout get bean, bean is initialized. And single obj is created whether u call getbean 100tyms">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/vigilantex/demo/Drawing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/vigilantex/demo/Drawing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/vigilantex/demo/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/vigilantex/demo/Triangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672899327385</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="scope of bean singleton&#10;Point to remember when scope is singleton wihout get bean, bean is initialized. And single obj is created whether u call getbean 100tyms">
+      <created>1672901455380</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1672901455380</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,6 +180,7 @@
     <MESSAGE value="using alias&#10;&lt;alias name=&quot;triangle&quot; alias=&quot;t-alias&quot;/&gt;" />
     <MESSAGE value="using collection in DI" />
     <MESSAGE value="byname autowiring&#10;Check spring.xml for lookup." />
-    <option name="LAST_COMMIT_MESSAGE" value="byname autowiring&#10;Check spring.xml for lookup." />
+    <MESSAGE value="scope of bean singleton&#10;Point to remember when scope is singleton wihout get bean, bean is initialized. And single obj is created whether u call getbean 100tyms" />
+    <option name="LAST_COMMIT_MESSAGE" value="scope of bean singleton&#10;Point to remember when scope is singleton wihout get bean, bean is initialized. And single obj is created whether u call getbean 100tyms" />
   </component>
 </project>
