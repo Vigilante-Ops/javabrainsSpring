@@ -2,19 +2,7 @@
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
         "http://www.springframework.org/dtd/spring-beans.dtd">
 <beans>
-    <bean id="triangle" class="org.vigilantex.demo.Triangle">
-
-
-        <property name="points">
-
-            <list>
-            <ref bean="pointA"/>
-                <ref bean="pointB"/>
-                <ref bean="pointC"/>
-            </list>
-        </property>
-
-    </bean>
+    <bean id="triangle" class="org.vigilantex.demo.Triangle" autowire="byName"/>
 
     <bean id="pointA" class="org.vigilantex.demo.Point">
 
